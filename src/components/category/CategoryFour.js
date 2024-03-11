@@ -6,15 +6,15 @@ const CategoryFour = ({category, thumb, className}) => {
     return (
         <div className={`tt-promo02 ${className ? className : ''}`}>
             <Link href={`/product/category/${category}`}>
-                <a className="image-box">
+                <div className="image-box">
                     <img src={thumb} alt={toCapitalize(category)}/>
-                </a>
+                </div>
             </Link>
             <div className="tt-description">
                 <Link href={`/product/category/${category}`}>
-                    <a className="tt-title">
+                    <div className="tt-title">
                         <div className="tt-title-small">{category.replace('-',' ').toUpperCase()}</div>
-                    </a>
+                    </div>
                 </Link>
             </div>
         </div>

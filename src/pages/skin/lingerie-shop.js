@@ -63,10 +63,10 @@ const HomeSkinLingerie = ({blogs}) => {
                                             </Link>
                                             <div className="tt-description text-center">
                                                 <Link href="/shop">
-                                                    <a className="tt-title">
+                                                    <div className="tt-title">
                                                         <div className="tt-title-small">{parse(promo.subtitle)}</div>
                                                         <div className="tt-title-large">{parse(promo.title)}</div>
-                                                    </a>
+                                                    </div>
                                                 </Link>
                                                 <p>{parse(promo.content)}</p>
                                             </div>

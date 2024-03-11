@@ -11,15 +11,15 @@ const OfferItemOne = ({data, className}) => {
             </div>
             <div className="tt-description">
                 <Link href={data.btnLink}>
-                    <a className="tt-title">
+                    <div className="tt-title">
                         <div className="tt-title-small">{data.subTitle}</div>
                         <div className="tt-title-large">{data.title}</div>
-                    </a>
+                    </div>
                 </Link>
 
                 <p>{data.content}</p>
                 <Link href={data.btnLink}>
-                    <a className="btn-link">{data.btnText}</a>
+                    <div className="btn-link">{data.btnText}</div>
                 </Link>
             </div>
         </div>

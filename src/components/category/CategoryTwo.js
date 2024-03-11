@@ -7,7 +7,7 @@ const CategoryTwo = ({products, thumb, catName, className}) => {
 
     return (
         <Link href={`/product/category/${catName}`}>
-            <a className={`tt-collection-item ${className ? className : ''}`}>
+            <div className={`tt-collection-item ${className ? className : ''}`}>
                 <div className="tt-image-box">
                     <img src={thumb} alt={catName}/>
                 </div>
@@ -17,7 +17,7 @@ const CategoryTwo = ({products, thumb, catName, className}) => {
                         <li>{categoryProducts.length} PRODUCT{categoryProducts.length > 1 ? 'S' : ''}</li>
                     </ul>
                 </div>
-            </a>
+            </div>
         </Link>
     );
 };

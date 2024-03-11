@@ -73,7 +73,7 @@ const HomeSkinHandmade = () => {
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                                             doloremque.</p>
                                         <Link href="/shop">
-                                            <a className="btn btn-xl btn-dark">BUY NOW!</a>
+                                            <div className="btn btn-xl btn-dark">BUY NOW!</div>
                                         </Link>
                                     </div>
                                 </Col>
@@ -100,7 +100,7 @@ const HomeSkinHandmade = () => {
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                                             doloremque.</p>
                                         <Link href="/shop">
-                                            <a className="btn btn-xl btn-dark">BUY NOW!</a>
+                                            <div className="btn btn-xl btn-dark">BUY NOW!</div>
                                         </Link>
                                     </div>
                                 </Col>
@@ -185,7 +185,7 @@ const HomeSkinHandmade = () => {
                                             <p className="tt-text-small">Sed ut perspiciatis unde omnis iste natus error
                                                 sit<br/> voluptatem accusantium.</p>
                                             <h4 className="tt-title">Take the journey further</h4>
-                                            <Link href="/shop"><a className="btn btn-xl mt-lg-3">BUY NOW!</a></Link>
+                                            <Link href="/shop"><div className="btn btn-xl mt-lg-3">BUY NOW!</div></Link>
                                         </div>
                                     </Col>
                                 </Row>
@@ -245,7 +245,7 @@ const HomeSkinHandmade = () => {
                                     <div className="tt-layout-box03">
                                         <h2 className="tt-title">Hit the road with style</h2>
                                         <p>Unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
-                                        <Link href="/shop"><a className="btn btn-xl">BUY NOW!</a></Link>
+                                        <Link href="/shop"><div className="btn btn-xl">BUY NOW!</div></Link>
                                     </div>
                                 </Col>
                             </Row>

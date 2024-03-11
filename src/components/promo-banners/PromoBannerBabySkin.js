@@ -17,7 +17,7 @@ const PromoBannerBabySkin = ({className, bgImage}) => {
                                     content you provide about you and your business,<br/> the more confident people will
                                     be when purchasing from your store.
                                 </p>
-                                <Link href="/shop"><a className="btn">Shop Now!</a></Link>
+                                <Link href="/shop"><div className="btn">Shop Now!</div></Link>
                             </div>
                         </div>
                     </div>

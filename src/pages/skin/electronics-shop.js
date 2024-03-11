@@ -139,7 +139,7 @@ const HomeSkinElectronics = () => {
                                         >
 
                                             <Link href="/">
-                                                <a className="tt-btn-img tt-layout-02">
+                                                <div className="tt-btn-img tt-layout-02">
                                                     <div className="tt-img">
                                                         <img
                                                             alt={category}
@@ -147,7 +147,7 @@ const HomeSkinElectronics = () => {
                                                         />
                                                     </div>
                                                     <div className="tt-title">{category}&nbsp;›</div>
-                                                </a>
+                                                </div>
                                             </Link>
                                         </Col>
                                     ))}

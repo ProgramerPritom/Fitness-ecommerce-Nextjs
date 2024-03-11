@@ -206,7 +206,7 @@ const HomeSkinBicycle = ({blogs}) => {
                                                         className="tt-white-color">REVIEWS AND<br/>INSTALLATIONS</span>
                                                 </div>
                                                 <Link href="/about">
-                                                    <a className="btn">READ MORE ABOUT US</a>
+                                                    <div className="btn">READ MORE ABOUT US</div>
                                                 </Link>
                                             </div>
                                         </div>

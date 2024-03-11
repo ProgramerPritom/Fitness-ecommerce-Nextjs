@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 const Logo = ({src}) => {
     return (
         <Link href="/">
-            <a className="tt-logo tt-logo-alignment">
+            <div className="tt-logo tt-logo-alignment">
                 <img src={src} alt="wokiee"/>
-            </a>
+            </div>
         </Link>
     );
 };

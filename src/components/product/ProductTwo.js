@@ -13,14 +13,14 @@ const ProductTwo = ({product}) => {
             <div className="tt-layout-vertical">
                 <div className="tt-img">
                     <Link href={slug}>
-                        <a>
+                        
                             <figure className="tt-img-default">
                                 <img src={thumbs[0]} alt={name}/>
                             </figure>
                             <figure className="tt-img-roll-over">
                                 <img src={thumbs[1]} alt={name}/>
                             </figure>
-                        </a>
+                        
                     </Link>
                 </div>
 

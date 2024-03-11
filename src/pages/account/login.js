@@ -39,7 +39,7 @@ const LoginPage = () => {
                                             your orders in your account and more.</p>
                                         <div className="form-group">
                                             <Link href="/account/register">
-                                                <a className="btn btn-top btn-border">CREATE AN ACCOUNT</a>
+                                                <div className="btn btn-top btn-border">CREATE AN ACCOUNT</div>
                                             </Link>
                                         </div>
                                     </div>

@@ -29,7 +29,7 @@ const SliderFive = ({className, sliderWrapper, data, dots, arrows}) => {
                                                     {slide.btn && (
                                                         <div className="tp-caption-cookware-wd03">
                                                             <Link href="/product/category/cookware">
-                                                                <a className="btn">SHOP NOW!</a>
+                                                                <div className="btn">SHOP NOW!</div>
                                                             </Link>
                                                         </div>
                                                     )}

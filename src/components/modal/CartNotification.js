@@ -21,9 +21,9 @@ const CartNotification = ({product, modalShow, modalOnHide}) => {
                     <div className="tt-modal-messages">
                         <i className="icon-f-68"/> Added to cart successfully!
                     </div>
-                    <Link href="/"><a className="btn-link btn-close-popup">CONTINUE SHOPPING</a></Link>
-                    <Link href="/cart"><a className="btn-link">VIEW CART</a></Link>
-                    <Link href="/checkout"><a className="btn-link">PROCEED TO CHECKOUT</a></Link>
+                    <Link href="/"><div className="btn-link btn-close-popup">CONTINUE SHOPPING</div></Link>
+                    <Link href="/cart"><div className="btn-link">VIEW CART</div></Link>
+                    <Link href="/checkout"><div className="btn-link">PROCEED TO CHECKOUT</div></Link>
                 </div>
 
                 <div className="tt-modal-addtocart desktop">
@@ -70,20 +70,20 @@ const CartNotification = ({product, modalShow, modalOnHide}) => {
 
                         <Col lg={6}>
                             <Link href="/">
-                                <a className="tt-cart-total">
+                                <div className="tt-cart-total">
                                     There are {shoppingCart && shoppingCart.length} items in your cart
                                     <div className="tt-total">
                                         TOTAL: <span
                                         className="tt-price">{CURRENCY + getCartTotalPrice(shoppingCart).toFixed(2)}</span>
                                     </div>
-                                </a>
+                                </div>
                             </Link>
 
                             <Link href="/shop">
-                                <a className="btn btn-border btn-close-popup">CONTINUE SHOPPING</a>
+                                <div className="btn btn-border btn-close-popup">CONTINUE SHOPPING</div>
                             </Link>
-                            <Link href="/cart"><a className="btn btn-border">VIEW CART</a></Link>
-                            <Link href="/checkout"><a className="btn">PROCEED TO CHECKOUT</a></Link>
+                            <Link href="/cart"><div className="btn btn-border">VIEW CART</div></Link>
+                            <Link href="/checkout"><div className="btn">PROCEED TO CHECKOUT</div></Link>
                         </Col>
                     </Row>
                 </div>

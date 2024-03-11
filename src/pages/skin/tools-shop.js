@@ -74,7 +74,7 @@ const HomeSkinTools = ({blogs}) => {
                                     {categories.slice(1, 5).map((category, index) => (
                                         <Col sm={6} lg={3} className="col-12-440width" key={index}>
                                             <Link href={`/product/category/${category}`}>
-                                                <a className="tt-btn-img tt-layout-02">
+                                                <div className="tt-btn-img tt-layout-02">
                                                     <div
                                                         className="tt-img"
                                                         style={{backgroundImage: `url(/assets/images/skins/tools/btn-img0${index + 1}.jpg)`}}
@@ -82,7 +82,7 @@ const HomeSkinTools = ({blogs}) => {
                                                     <div className="tt-title">
                                                         {toCapitalize(category.replace('-', ' '))}
                                                     </div>
-                                                </a>
+                                                </div>
                                             </Link>
                                         </Col>
                                     ))}

@@ -51,7 +51,7 @@ const HomeSkinPhones = () => {
                                                 <span className="tt-base-color">Say hello to the future.</span>
                                             </div>
                                             <Link href="/shop">
-                                                <a className="btn btn-xl">SHOP NOW!</a>
+                                                <div className="btn btn-xl">SHOP NOW!</div>
                                             </Link>
                                         </div>
                                     </div>

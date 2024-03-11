@@ -14,11 +14,11 @@ const HeroBannerFour = () => {
                                     <div className="tp-caption3-wd-2">Final Clearance<br/> Up to 80% Off</div>
                                     <div className="tp-caption1-wd-4 tp-caption-list-btn">
                                         <Link href="/product/category/women">
-                                            <a className="btn btn-xl btn-white">SHOP WOMEN</a>
+                                            <div className="btn btn-xl btn-white">SHOP WOMEN</div>
                                         </Link>
 
                                         <Link href="/product/category/men">
-                                            <a className="btn btn-xl btn-white mt-lg-0">SHOP MEN</a>
+                                            <div className="btn btn-xl btn-white mt-lg-0">SHOP MEN</div>
                                         </Link>
                                     </div>
                                 </div>

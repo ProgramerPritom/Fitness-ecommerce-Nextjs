@@ -4,7 +4,7 @@ import Proptypes from "prop-types";
 const CategoryOne = ({category, thumb, className, textPosition}) => {
     return (
         <Link href={`/product/category/${category.split(' ').join('-').toLowerCase()}`}>
-            <a className={`tt-promo-box tt-one-child ${className ? className : 'hover-type-2'}`}>
+            <div className={`tt-promo-box tt-one-child ${className ? className : 'hover-type-2'}`}>
                 <img
                     src={thumb}
                     alt={category}
@@ -16,7 +16,7 @@ const CategoryOne = ({category, thumb, className, textPosition}) => {
                         <div className="tt-title-small">{category}</div>
                     </div>
                 </div>
-            </a>
+            </div>
         </Link>
 
     );

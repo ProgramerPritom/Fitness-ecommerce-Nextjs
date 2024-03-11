@@ -40,12 +40,12 @@ const MobileNav = ({className, mobileNavbarHandler, showMobileNavbar, navData}) 
                         {navData.map(nav => (
                             <li key={nav.id}>
                                 <Link href={nav?.link}>
-                                    <a
+                                    <div
                                         className={nav?.submenu || nav?.mega_menu ? 'mm-next-level' : ''}
                                         onClick={(event => handleMenu(event))}
                                     >
                                         {nav?.text}
-                                    </a>
+                                    </div>
                                 </Link>
                                 {nav?.submenu && (
                                     nav?.submenu.map(subitem => (

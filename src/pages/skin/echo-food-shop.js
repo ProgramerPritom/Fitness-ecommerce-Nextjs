@@ -49,7 +49,7 @@ const HomeSkinEchoFood = () => {
                                 {services.map((service, idx) => (
                                     <Col xs={6} sm={3} key={idx}>
                                         <Link href="/shop">
-                                            <a className="tt-services-block tt-services-block-vertical">
+                                            <div className="tt-services-block tt-services-block-vertical">
                                                 <div className="tt-col-icon">
                                                     <img
                                                         alt={service}
@@ -59,7 +59,7 @@ const HomeSkinEchoFood = () => {
                                                 <div className="tt-col-description">
                                                     <h4 className="tt-title">{service}</h4>
                                                 </div>
-                                            </a>
+                                            </div>
                                         </Link>
                                     </Col>
                                 ))}
@@ -84,9 +84,9 @@ const HomeSkinEchoFood = () => {
                                             </div>
                                             <div className="tt-description">
                                                 <Link href="/shop">
-                                                    <a className="tt-title">
+                                                    <div className="tt-title">
                                                         <div className="tt-title-large">{menu.title}</div>
-                                                    </a>
+                                                    </div>
                                                 </Link>
                                                 <p>{menu.content}</p>
                                             </div>

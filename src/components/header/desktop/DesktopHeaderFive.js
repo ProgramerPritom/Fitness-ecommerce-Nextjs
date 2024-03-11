@@ -52,7 +52,7 @@ const DesktopHeaderFive = ({navbarAlignment, logoAlignment, containerFluid, logo
 
                             <div className=" tt-parent-box">
                                 <Link href="/compare">
-                                    <a className="tt-obj-link tt-compare-wrapper"
+                                    <div className="tt-obj-link tt-compare-wrapper"
                                        data-tooltip="Compare" data-tposition="bottom">
                                         <div className="tt-dropdown-toggle">
                                             <div className="tt-header-icon">
@@ -62,13 +62,13 @@ const DesktopHeaderFive = ({navbarAlignment, logoAlignment, containerFluid, logo
                                             <span
                                                 className="tt-badge-cart text-center">{compareList && compareList.length}</span>
                                         </div>
-                                    </a>
+                                    </div>
                                 </Link>
                             </div>
 
                             <div className=" tt-parent-box">
                                 <Link href="/wishlist">
-                                    <a className="tt-obj-link tt-compare-wrapper"
+                                    <div className="tt-obj-link tt-compare-wrapper"
                                        data-tooltip="Compare" data-tposition="bottom">
                                         <div className="tt-dropdown-toggle">
                                             <div className="tt-header-icon">
@@ -77,13 +77,13 @@ const DesktopHeaderFive = ({navbarAlignment, logoAlignment, containerFluid, logo
                                             <span className="tt-text">WISHLIST</span>
                                             <span className="tt-badge-cart text-center">{wishlist && wishlist.length}</span>
                                         </div>
-                                    </a>
+                                    </div>
                                 </Link>
                             </div>
 
                             <div className=" tt-parent-box">
                                 <Link href="/cart">
-                                    <a className="tt-obj-link tt-compare-wrapper"
+                                    <div className="tt-obj-link tt-compare-wrapper"
                                        data-tooltip="Compare" data-tposition="bottom">
                                         <div className="tt-dropdown-toggle">
                                             <div className="tt-header-icon">
@@ -93,7 +93,7 @@ const DesktopHeaderFive = ({navbarAlignment, logoAlignment, containerFluid, logo
                                             <span
                                                 className="tt-badge-cart text-center">{shoppingCart && shoppingCart.length}</span>
                                         </div>
-                                    </a>
+                                    </div>
                                 </Link>
                             </div>
                         </div>

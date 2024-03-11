@@ -22,7 +22,7 @@ const PromoBannerCareSkin = ({className, bgImage}) => {
                                                 solution for your current or future webshop.
                                             </p>
                                             <Link href="/about">
-                                                <a className="btn btn-xl btn-white">Read more about us →</a>
+                                                <div className="btn btn-xl btn-white">Read more about us →</div>
                                             </Link>
                                         </div>
                                     </div>

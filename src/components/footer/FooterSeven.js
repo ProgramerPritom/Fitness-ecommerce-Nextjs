@@ -49,7 +49,7 @@ const FooterSeven = ({className}) => {
                                                 {colors.map((color, index) => (
                                                     <li key={index}>
                                                         <Link
-                                                            href="/shop"><a>{toCapitalize(color.name.replace('-', ' '))}</a></Link>
+                                                            href="/shop">{toCapitalize(color.name.replace('-', ' '))}</Link>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -62,7 +62,7 @@ const FooterSeven = ({className}) => {
                                                 {categories.map((category, index) => (
                                                     <li key={index}>
                                                         <Link
-                                                            href="/shop"><a>{toCapitalize(category.replace('-', ' '))}</a></Link>
+                                                            href="/shop">{toCapitalize(category.replace('-', ' '))}</Link>
                                                     </li>
                                                 ))}
                                             </ul>

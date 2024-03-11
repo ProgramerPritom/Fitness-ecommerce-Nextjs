@@ -11,7 +11,7 @@ const DesktopNav = ({className, navData}) => {
                         <li key={navItem.id}
                             className={`dropdown ${navItem.submenu ? 'tt-submenu' : ''} ${navItem.mega_menu ? 'megamenu' : 'tt-megamenu-col-01'}`}
                         >
-                            <Link href={navItem.link}><a>{navItem.text}</a></Link>
+                            <Link href={navItem.link}>{navItem.text}</Link>
                             {/* {navItem?.submenu && (
                                 <div className="dropdown-menu">
                                     <Row>
@@ -29,7 +29,7 @@ const DesktopNav = ({className, navData}) => {
                                                             {subItem?.lists.map((item, index) => (
                                                                 <li key={index} className={item.badge}>
                                                                     <Link href={item.link}>
-                                                                        <a>
+                                                                        
                                                                             {item.text}
                                                                             {item.badge && (
                                                                                 <span
@@ -40,7 +40,7 @@ const DesktopNav = ({className, navData}) => {
                                                                                     {item.badge === 'new' && 'NEW'}
                                                                             </span>
                                                                             )}
-                                                                        </a>
+                                                                        
                                                                     </Link>
                                                                 </li>
                                                             ))}
@@ -51,7 +51,7 @@ const DesktopNav = ({className, navData}) => {
                                                 {navItem?.promo && (
                                                     <Col lg={3}>
                                                         <Link href="/shop" className="tt-promo-02">
-                                                            <a><img src={navItem?.promo} alt="promo"/></a>
+                                                            <img src={navItem?.promo} alt="promo"/>
                                                         </Link>
                                                     </Col>
                                                 )}

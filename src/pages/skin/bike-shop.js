@@ -91,7 +91,7 @@ const HomeSkinBike = ({blogs}) => {
                                                         <span className="tt-white-color">SALES<br/>70% OFF</span>
                                                     </div>
                                                     <Link href="/shop">
-                                                        <a className="btn btn-xl">SHOP NOW!</a>
+                                                        <div className="btn btn-xl">SHOP NOW!</div>
                                                     </Link>
                                                 </div>
                                             </div>

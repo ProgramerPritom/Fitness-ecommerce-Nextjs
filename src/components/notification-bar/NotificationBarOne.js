@@ -13,7 +13,7 @@ const NotificationBarOne = ({className}) => {
                                 <li>
                                     <i className="icon-f-44"/>
                                     FREE 2-DAYS STANDARD SHIPPING ON ORDERS $255+
-                                    <Link href="/shop"><a className="tt-link-underline ml-1">MORE DETAILS</a></Link>
+                                    <Link href="/shop"><div className="tt-link-underline ml-1">MORE DETAILS</div></Link>
                                 </li>
                             </ul>
                         </div>

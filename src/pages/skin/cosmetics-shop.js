@@ -100,7 +100,7 @@ const HomeSkinCosmeticsShop = () => {
                                                     at a time.
                                                 </div>
                                                 <Link href="/shop">
-                                                    <a className="btn">SHOP NOW!</a>
+                                                    <div className="btn">SHOP NOW!</div>
                                                 </Link>
                                             </div>
                                         </div>

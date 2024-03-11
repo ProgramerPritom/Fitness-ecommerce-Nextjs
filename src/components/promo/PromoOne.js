@@ -5,7 +5,7 @@ import parse from "react-html-parser";
 const PromoOne = ({className, thumb, title, heading, link, btn, btnText, btnClass, bgClass}) => {
     return (
         <Link href={link}>
-            <a className={`tt-promo-box ${className ? className : ''}`}>
+            <div className={`tt-promo-box ${className ? className : ''}`}>
                 <img src={thumb} alt={title}/>
                 <div className="tt-description">
                     <div className="tt-description-wrapper">
@@ -14,12 +14,12 @@ const PromoOne = ({className, thumb, title, heading, link, btn, btnText, btnClas
                         {heading && <div className="tt-title-large">{parse(heading)}</div>}
                         {btn && (
                             <Link href={link}>
-                                <a className={`btn btn-xl ${btnClass ? btnClass : ''}`}>{btnText}</a>
+                                <div className={`btn btn-xl ${btnClass ? btnClass : ''}`}>{btnText}</div>
                             </Link>
                         )}
                     </div>
                 </div>
-            </a>
+            </div>
         </Link>
     );
 };

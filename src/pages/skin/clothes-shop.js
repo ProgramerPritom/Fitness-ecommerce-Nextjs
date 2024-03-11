@@ -66,7 +66,7 @@ const HomeSkinClothes = () => {
                                 {categories.map((category, idx) => (
                                     <Col xs={6} md={3} key={idx}>
                                         <Link href={`/product/category/${category.toLowerCase().replace(' ', '-')}`}>
-                                            <a className="tt-collection-item hover-type-02">
+                                            <div className="tt-collection-item hover-type-02">
                                                 <div className="tt-image-box">
                                                     <img
                                                         alt="wokiee"
@@ -76,7 +76,7 @@ const HomeSkinClothes = () => {
                                                 <div className="tt-description">
                                                     <h2 className="tt-title">{category}</h2>
                                                 </div>
-                                            </a>
+                                            </div>
                                         </Link>
                                     </Col>
                                 ))}

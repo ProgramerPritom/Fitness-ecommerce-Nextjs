@@ -13,7 +13,7 @@ const SlideContent = ({data, className}) => {
                 {data.btnText && (
                     <div className="tp-caption1-wd-4">
                         <Link href={data.btnLink}>
-                            <a className={`btn btn-xl ${data.btnClass}`}>{data.btnText}</a>
+                            <div className={`btn btn-xl ${data.btnClass}`}>{data.btnText}</div>
                         </Link>
                     </div>
                 )}
@@ -26,7 +26,7 @@ const SlideContent = ({data, className}) => {
                 {data.btnText && (
                     <div className="tp-caption1-wd-4">
                         <Link href={data.btnLink}>
-                            <a className={`btn btn-xl ${data.btnClass}`}>{data.btnText}</a>
+                            <div className={`btn btn-xl ${data.btnClass}`}>{data.btnText}</div>
                         </Link>
                     </div>
                 )}

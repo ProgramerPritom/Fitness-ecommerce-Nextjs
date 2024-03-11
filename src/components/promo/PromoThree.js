@@ -19,7 +19,7 @@ const PromoThree = ({className, thumb, subtitle, title, buttons}) => {
                         <div className="custom-buttons">
                             {buttons.map((btn, idx) => (
                                 <Link key={idx} href={btn.link}>
-                                    <a className="btn btn-white btn-transparent">{btn.text}</a>
+                                    <div className="btn btn-white btn-transparent">{btn.text}</div>
                                 </Link>
                             ))}
                         </div>

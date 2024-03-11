@@ -5,9 +5,9 @@ import parse from "react-html-parser";
 const Character = ({title, url, className}) => {
     return (
         <Link href={url}>
-            <a className={`tt-btn-info tt-layout-03 ${className ? className : ''}`}>
+            <div className={`tt-btn-info tt-layout-03 ${className ? className : ''}`}>
                 <div className="tt-title">{parse(title)}</div>
-            </a>
+            </div>
         </Link>
     );
 };

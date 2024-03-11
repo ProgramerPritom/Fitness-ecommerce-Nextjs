@@ -36,7 +36,7 @@ const MiniCart = ({className, isHidden, openHandler, closeHandler}) => {
                                         {shoppingCart.slice(0, 3).map(product => (
                                             <div className="tt-item" key={product.cartId}>
                                                 <Link href="/">
-                                                    <a>
+                                                   
                                                         <div className="tt-item-img">
                                                             {product.variations ? (
                                                                 product.variations.map((variation, i) => (
@@ -75,7 +75,7 @@ const MiniCart = ({className, isHidden, openHandler, closeHandler}) => {
                                                                 {CURRENCY + product.price.toFixed(2)}
                                                             </div>
                                                         </div>
-                                                    </a>
+                                                    
                                                 </Link>
                                                 <div className="tt-item-close">
                                                     <button className="tt-btn-close"
@@ -100,7 +100,7 @@ const MiniCart = ({className, isHidden, openHandler, closeHandler}) => {
                                         <div className="flex-align-center">
                                             <Tooltip content="View Cart" className="d-flex justify-content-center">
                                                 <Link href="/cart">
-                                                    <a className="btn-link-02 text-center">. . .</a>
+                                                    <div className="btn-link-02 text-center">. . .</div>
                                                 </Link>
                                             </Tooltip>
                                         </div>
@@ -113,16 +113,16 @@ const MiniCart = ({className, isHidden, openHandler, closeHandler}) => {
                                     <div className="tt-cart-btn">
                                         <div className="tt-item">
                                             <Link href="/checkout">
-                                                <a className="btn">Proceed to Checkout</a>
+                                                <div className="btn">Proceed to Checkout</div>
                                             </Link>
                                         </div>
                                         <div className="tt-item">
                                             <Link href="/cart">
-                                                <a className="btn-link-02 tt-hidden-mobile">View Cart</a>
+                                                <div className="btn-link-02 tt-hidden-mobile">View Cart</div>
                                             </Link>
 
                                             <Link href="/cart">
-                                                <a className="btn btn-border tt-hidden-desktop">View Cart</a>
+                                                <div className="btn btn-border tt-hidden-desktop">View Cart</div>
                                             </Link>
                                         </div>
                                     </div>

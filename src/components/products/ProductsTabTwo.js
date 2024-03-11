@@ -78,7 +78,7 @@ const ProductsTabTwo = ({products, limit, className, productClass, containerFlui
                 {showMoreBtn && (
                     <div className="text-center tt_product_showmore">
                         <Link href="/shop">
-                            <a className="btn">Shop the latest release →</a>
+                            <div className="btn">Shop the latest release →</div>
                         </Link>
                     </div>
                 )}

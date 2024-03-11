@@ -28,23 +28,23 @@ const CartItem = ({product, className}) => {
                         variations.map((variation, i) => (
                             variation.color.name === color && (
                                 <Link href={slug} key={i}>
-                                    <a>
+                                    
                                         <img
                                             src={variation.color.thumb}
                                             alt={product.name}
                                         />
-                                    </a>
+                                    
                                 </Link>
                             )
                         ))
                     ) : (
                         <Link href={slug}>
-                            <a>
+                            
                                 <img
                                     src={thumbs[0]}
                                     alt={name}
                                 />
-                            </a>
+                            
                         </Link>
                     )}
                 </div>

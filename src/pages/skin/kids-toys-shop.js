@@ -60,9 +60,9 @@ const HomeSkinKidsToys = () => {
                                     {ages.map((age, idx) => (
                                         <Col xs={6} sm={4} className="col-5-inrow-lg" key={idx}>
                                             <Link href="/product/category/toys">
-                                                <a className={`tt-btn-info tt-layout-03 tt-btn-info-color0${idx + 1}`}>
+                                                <div className={`tt-btn-info tt-layout-03 tt-btn-info-color0${idx + 1}`}>
                                                     <div className="tt-title">{age}</div>
-                                                </a>
+                                                </div>
                                             </Link>
                                         </Col>
                                     ))}
