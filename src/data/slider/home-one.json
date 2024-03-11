@@ -6,7 +6,7 @@
     "content": "<p class='tp-caption1-wd-3'>30 skins, powerful features, great support, exclusive offer</p>",
     "btnText": "SHOP NOW!",
     "btnLink": "/shop",
-    "bgImage": "/assets/images/slides/01/slide-01.jpg"
+    "bgImage": "/assets/images/slides/01/slide-01.png"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "content": "<p class='tp-caption1-wd-3 tt-white-color'>Browse Your favourite Brand</p>",
     "btnText": "SHOP NOW!",
     "btnLink": "/shop",
-    "bgImage": "/assets/images/slides/01/slide-02.jpg"
+    "bgImage": "/assets/images/slides/01/slide-2.webp"
   },
   {
     "id": 3,
@@ -24,6 +24,6 @@
     "content": "<p class='tp-caption1-wd-3 tt-white-color'>Browse Your favourite Brand</p>",
     "btnText": "SHOP NOW!",
     "btnLink": "/shop",
-    "bgImage": "/assets/images/slides/01/slide-02.jpg"
+    "bgImage": "/assets/images/slides/01/slide-03.jpg"
   }
 ]
