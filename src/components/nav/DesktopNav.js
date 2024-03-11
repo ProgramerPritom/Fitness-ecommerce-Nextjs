@@ -12,7 +12,7 @@ const DesktopNav = ({className, navData}) => {
                             className={`dropdown ${navItem.submenu ? 'tt-submenu' : ''} ${navItem.mega_menu ? 'megamenu' : 'tt-megamenu-col-01'}`}
                         >
                             <Link href={navItem.link}><a>{navItem.text}</a></Link>
-                            {navItem?.submenu && (
+                            {/* {navItem?.submenu && (
                                 <div className="dropdown-menu">
                                     <Row>
                                         <Col lg={12}>
@@ -59,7 +59,7 @@ const DesktopNav = ({className, navData}) => {
                                         </Col>
                                     </Row>
                                 </div>
-                            )}
+                            )} */}
                         </li>
                     ))
                 )}

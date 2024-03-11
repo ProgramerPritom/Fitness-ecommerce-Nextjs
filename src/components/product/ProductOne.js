@@ -128,13 +128,13 @@ const ProductOne = ({product, page, showVariant, className}) => {
                                     productSizeHandler={productSizeHandler}
                                 />
 
-                                <ProductMaterial
+                                {/* <ProductMaterial
                                     className="mt-3"
                                     product={product}
                                     productColor={productColor}
                                     productMaterial={productMaterial}
                                     productMaterialHandler={productMaterialHandler}
-                                />
+                                /> */}
                             </div>
                         )
                     )}
