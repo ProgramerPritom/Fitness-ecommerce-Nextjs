@@ -21,7 +21,7 @@ const StickyHeader = ({hoverStyleClass, mobileNavbarHandler, containerFluid, nav
 
     return (
         <div className={`tt-stuck-nav ${scroll >= 100 ? 'stuck' : ''}`}
-             style={{display: scroll >= 100 ? "block" : "none"}}
+             style={{display: scroll >= 100 ? "block" : "none",padding:'15px'}}
         >
             <Container fluid={containerFluid}>
                 <div className="tt-header-row">

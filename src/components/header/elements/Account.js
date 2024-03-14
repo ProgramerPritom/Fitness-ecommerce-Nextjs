@@ -6,7 +6,7 @@ const Account = ({className, isHidden, openHandler, closeHandler}) => {
         <div className={`tt-parent-box ${className}`}>
             <div className={`tt-account tt-dropdown-obj ${!isHidden ? 'active' : null}`}>
                 <button className="tt-dropdown-toggle" data-id="account" onClick={openHandler} >
-                    <i className="icon-f-94"/>
+                    <i className="icon-f-94" style={{fontSize:'30px'}}/>
                 </button>
                 <div className="tt-dropdown-menu">
                     <div className="tt-mobile-add">

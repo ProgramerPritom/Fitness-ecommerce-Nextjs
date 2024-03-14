@@ -15,7 +15,7 @@ const MiniCart = ({className, isHidden, openHandler, closeHandler}) => {
         <div className={`tt-parent-box ${className}`}>
             <div className={`tt-cart tt-dropdown-obj ${!isHidden ? "active" : null}`}>
                 <button className="tt-dropdown-toggle" data-id="miniCart" onClick={openHandler}>
-                    <i className="icon-f-39"/>
+                    <i className="icon-f-39" style={{fontSize:'30px'}}/>
                     <div className="tt-badge-cart">{totalCartItems ? totalCartItems : 0}</div>
                 </button>
                 <div className="tt-dropdown-menu">

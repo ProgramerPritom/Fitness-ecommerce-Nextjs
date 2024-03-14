@@ -3,7 +3,7 @@ const SearchBoxOne = ({className, isHidden, openHandler, closeHandler}) => {
         <div className={`tt-parent-box ${className}`}>
             <div className={`tt-search tt-dropdown-obj ${!isHidden ? "active" : 'not-active'}`}>
                 <button className="tt-dropdown-toggle" data-id="searchBox" onClick={openHandler}>
-                    <i className="icon-f-85"/>
+                    <i className="icon-f-85" style={{fontSize:'30px'}}/>
                 </button>
 
                 <div className="tt-dropdown-menu">

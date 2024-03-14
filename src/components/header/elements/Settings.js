@@ -3,7 +3,7 @@ const  Settings = ({className, isHidden, openHandler, closeHandler}) => {
         <div className={`tt-parent-box ${className}`}>
             <div className={`tt-multi-obj tt-dropdown-obj ${!isHidden ? 'active' : null}`}>
                 <button className="tt-dropdown-toggle" data-id="settings" onClick={openHandler}>
-                    <i className="icon-f-79"/>
+                    <i className="icon-f-79" style={{fontSize:'30px'}}/>
                 </button>
                 <div className="tt-dropdown-menu">
                     <div className="tt-mobile-add">
