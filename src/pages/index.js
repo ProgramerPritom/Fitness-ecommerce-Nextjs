@@ -68,7 +68,7 @@ const Home = ({blogs}) => {
                     containerFluid={true}
                     btnLink="/product/category/men"
                     subtitle="<span class='tt-base-color'>Style & Color</span>"
-                    title="New<br>Arrival"
+                    // title="New<br>Arrival"
                     thumb="/assets/images/promo/index18-promo-img-02.jpg"
                 />
                 <Products
