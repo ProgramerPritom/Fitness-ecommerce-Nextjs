@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "<div class='tp-caption1-wd-2 tt-base-dark-color' data-swiper-parallax='-100px'>Premium && <br/> Get Best Offer</div>",
+    "title": "<div class='tp-caption1-wd-2 tt-white-color' data-swiper-parallax='-100px'>Premium && <br/> Get Best Offer</div>",
     "subTitle": "<span class='tp-caption1-wd-1 tt-base-color'>Multipurpose</span>",
-    "content": "<p class='tp-caption1-wd-3'>30 skins, powerful features, great support, exclusive offer</p>",
+    "content": "<p class='tp-caption1-wd-3 tt-white-color'>30 skins, powerful features, great support, exclusive offer</p>",
     "btnText": "SHOP NOW!",
     "btnLink": "/shop",
     "bgImage": "/assets/images/slides/01/first.jpg"
