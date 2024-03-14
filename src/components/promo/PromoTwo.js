@@ -13,10 +13,12 @@ const PromoTwo = ({className, thumb, subtitle, title, content, btn, btnLink, con
                             <img src={thumb} alt={title}/>
                             <div className="tt-description">
                                 <div className="tt-description-wrapper">
+                                    <div>
                                     <div className="tt-title-small">{parse(subtitle)}</div>
                                     <div className="tt-title-large">{parse(title)}</div>
                                     {content && <p>{parse(content)}</p>}
                                     {btn && <Link href={btnLink}><div className="btn btn-xl">SHOP NOW!</div></Link>}
+                                    </div>
                                 </div>
                             </div>
                         </div>

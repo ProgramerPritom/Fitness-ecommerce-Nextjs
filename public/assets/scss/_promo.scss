@@ -463,7 +463,7 @@ html:not(.ie) {
       height: 100%;
       display: -ms-flexbox;
       display: -webkit-flex;
-      display: flex;
+      // display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: center;

@@ -3929,6 +3929,7 @@ header .tt-dropdown-obj.obj-move-left .tt-dropdown-menu {
   flex-wrap: wrap;
   position: relative;
   align-items: center;
+  justify-content: space-between;
 
   //obj default
   .tt-col-obj {
@@ -3936,9 +3937,9 @@ header .tt-dropdown-obj.obj-move-left .tt-dropdown-menu {
   }
 
   //obj
-  .tt-obj-menu {
-    flex: 2 1 auto;
-  }
+  // .tt-obj-menu {
+  //   flex: 2 1 auto;
+  // }
 
   //move object
   .obj-move-left {

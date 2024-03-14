@@ -55,7 +55,7 @@ const Home = ({blogs}) => {
                     containerFluid={true}
                     className="nomargin"
                     btnLink="/product/category/women"
-                    subtitle="<span class='tt-base-color'>Women’s</span>"
+                    subtitle="<span class='tt-base-color'>Evolution Seamless</span>"
                     title="<span class='tt-white-color'>Sales<br>70% Off</span>"
                     thumb="/assets/images/promo/index18-promo-img-01.jpg"
                 />
@@ -67,7 +67,7 @@ const Home = ({blogs}) => {
                     btn={true}
                     containerFluid={true}
                     btnLink="/product/category/men"
-                    subtitle="<span class='tt-base-color'>Men’s</span>"
+                    subtitle="<span class='tt-base-color'>Style & Color</span>"
                     title="New<br>Arrival"
                     thumb="/assets/images/promo/index18-promo-img-02.jpg"
                 />

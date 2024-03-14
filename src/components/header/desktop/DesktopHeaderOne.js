@@ -9,10 +9,7 @@ const DesktopHeaderOne = ({className, navbarAlignment, containerFluid, dark, log
         <div className={`tt-desktop-header ${className ? className : ''}`}>
             <div className={dark ? 'tt-color-scheme-01' : 'tt-header-light'}>
                 <Container fluid={containerFluid}>
-                    <div className="tt-header-holder">
-                        <div className="tt-col-obj tt-obj-logo">
-                            <Logo src={logo} width={95} height={20}/>
-                        </div>
+                    <div className="tt-header-holder" style={{height: '80px'}}>
 
                         <div
                             className={`tt-col-obj tt-obj-menu obj-alignment-${navbarAlignment ? navbarAlignment : 'left'}`}>
@@ -22,6 +19,9 @@ const DesktopHeaderOne = ({className, navbarAlignment, containerFluid, dark, log
                                     hoverStyleClass="tt-hover-03"
                                 />
                             )}
+                        </div>
+                        <div className="tt-col-obj tt-obj-logo">
+                            <Logo src={logo} width={95} height={20}/>
                         </div>
 
                         <div className="tt-col-obj tt-obj-options">
